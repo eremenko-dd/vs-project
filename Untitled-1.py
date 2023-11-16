@@ -1,3 +1,7 @@
+"""
+Тестовое "пространство" для написание кода
+"""
+
 foo = True
 for i in range(int(input())):
     text = input()
