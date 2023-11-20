@@ -19,3 +19,14 @@ while text := input():
     answer.append(text)
 else:
     print(*answer, sep='\n')
+"""
+Пример 
+Ввод
+Hello, world
+Hello, @@@
+##Goodbye
+
+Вывод
+Hello, world
+Goodbye
+"""

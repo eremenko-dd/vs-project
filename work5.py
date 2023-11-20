@@ -10,3 +10,11 @@
 """
 text = input()
 print("YES" if text[:] == text[len(text)::-1] else "NO")
+"""
+Пример 
+Ввод
+мама
+
+Вывод
+NO
+"""
