@@ -12,6 +12,14 @@
 Примечание
 Для символов в строках используйте нумерацию с 1.
 """
+count = []
+for i in range(int(input())):
+    text = input()
+    if 'зайка' in text:
+        count.append(text.index('зайка') + 1)
+    else:
+        count.append('Заек нет =(')
+print(*count, sep='\n')
 
 """Пример 1
 Ввод
